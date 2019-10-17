@@ -1,12 +1,31 @@
-
-
-var arr =[1,3,4,5,6,7];
-document.getElementById('array').innerHTML = arr.toString()
-var index = 0,newArr = [];
-for(var i in arr){
-    if(arr[i] !=2){
-        newArr[index] = arr[i];
-        ++index;
+function calculate(){
+    let num = document.getElementById('num').value
+    num = parseInt(num)&&Number (num)
+    if(!isNaN(num)){
+        document.getElementById('pai').value = pi(num)
     }
 }
-document.getElementById('transArray').innerHTML = newArr.toString()
+function factorial(n){
+    let sum = 1
+    for(let i=1;i<=n;++i){
+        sum *=i
+    }
+   return sum
+}
+function oddFactorial(n){
+    let sum = 1
+    for(let i=1;i<=n;++i){
+        sum *=2*i+1
+    }
+    return sum
+}
+function pi(num){
+    let sum = 0
+    for(let i=0;i<=sum;++i){
+        let dividend = factorial(i)
+        let divisor =oddFactorial(i)
+        sum += (dividend/divisor)
+    }
+   return sum*2
+}
+calculate()
