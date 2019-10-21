@@ -1,7 +1,7 @@
 function sort(method){
 let origin = document.getElementById('origin').value
 let logs
-console.leg(method)
+console.log(method)
 if(method=='bubble'){
     logs = bubbleSort(origin)
 }else if(method=='insert'){
