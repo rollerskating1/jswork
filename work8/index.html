@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>李佳茵的网页计算器</title>
+</head>
+<body>
+    <p>整数1：<input type="text" id="num1"></p>
+    <p>整数2：<input type="text" id="num2"></p>
+    <p>
+<input type="button" value="相加" onclick="calc(add)">
+<input type="button" value="相减" onclick="calc(sub)">
+<input type="button" value="相乘" onclick="calc(mul)">
+<input type="button" value="相除" onclick="calc(div)">
+    </p>
+    <p>结果：<input type="text"  id="resule" readonly></p>
+    <p>哥德巴赫猜想</p>
+    <p>请输入一个大于2的偶数：<input type="text" id="odd"></p>
+    <input type="button" value="找素数" onclick="goldbach()">
+    <div id="goldbach"></div>
+</body>
+<script src="index.js"></script>
+<script src="goldbach.js"></script>
+</html>
