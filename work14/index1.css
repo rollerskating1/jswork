@@ -1,0 +1,52 @@
+.box {
+    width:250px;
+    height:52px;
+    padding:  15px 30px;
+
+border: 2px solid #ccc;
+border-radius: 16px;
+margin: 0 auto;
+
+}
+
+.box .count {
+    width: 60px;
+    color:#666;
+    font-size: 200%;
+    padding-left: 6px;
+    margin-left: 5px;
+    line-height: 50px;
+    
+
+  border: 1px solid #fff;
+}
+    
+    .box div {
+        margin-left: 5px;
+        float: left;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+           border: 1px solid #666;
+       
+      
+     
+   
+    }
+
+    .gray {
+        background-color: #eee;
+    }
+
+    .red {
+        background-color: red;
+    }
+
+    .yellow{
+        background-color: yellow;
+    }
+
+    .green 
+{
+    background-color:#26ff00;
+}

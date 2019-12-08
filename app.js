@@ -22,7 +22,7 @@ const openDefaultBrowser = function (url) {
       exec('start ' + url);
       break;
     default:
-      exec('xdg-open', [url]);
+      exec('xdg-open ', [url]);
   }
 }
 openDefaultBrowser('http://localhost:8080')
