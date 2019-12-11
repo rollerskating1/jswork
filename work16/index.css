@@ -1,0 +1,26 @@
+.box{
+    width: 350px;
+height: 350px;
+border: 1px solid #ccc;
+position: relative;
+}
+
+.big{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top:0;
+    left:360px;
+    border: 1px solid #ccc;
+overflow: hidden;
+display:none;
+}
+
+.mask{
+    width: 175px;
+    height: 175px;
+    background: rgba(255, 255, 0, -4);
+    top: 0;
+    cursor: move;
+    display:none;
+}
