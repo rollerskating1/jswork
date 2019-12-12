@@ -24,3 +24,15 @@ display:none;
     cursor: move;
     display:none;
 }
+
+.smail{
+    position: relative;
+}
+
+.box img {
+    vertical-align: top;
+}
+
+#bigBox img{
+    position: absolute;
+}
