@@ -1,0 +1,6 @@
+.scrollbox{
+    position:absolute;
+    height: 400px;
+    overflow: auto;
+    width:400px;
+}
