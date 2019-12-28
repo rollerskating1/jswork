@@ -1,0 +1,61 @@
+body {
+    background: #eee;
+    margin: 0
+}
+
+.box {
+    width: 800px;
+    margin: 0 auto;
+    background: #fefefe;
+    border-radius: 8px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 40px
+}
+
+.title {
+    font-family: 'Microsoft YaHei';
+    color: #666;
+    font-size: 24px;
+    text-align: center;
+    margin: 10px 0
+}
+
+.comment ul {
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+    border-bottom: 1px solid #ccc
+}
+
+.comment li {
+    line-height: 32px
+}
+
+.pagelist {
+    margin-top: 20px;
+    text-align: center
+}
+
+.pagelist span {
+    margin: 0 2px
+}
+
+.pagelist button {
+    padding: 6px 10px;
+    cursor: pointer
+}
+
+.pagelist button:disabled {
+    cursor: default
+}
+
+.progress div {
+    width: 0%;
+    height: 1px;
+    position: fixed;
+    top: 0;
+    background-color: #38f;
+    box-shadow: 1px 1px 1px #6bf;
+    transition: all 0.8s
+}
