@@ -1,0 +1,27 @@
+select{
+    width:100px;
+    height:150px;
+}
+
+input[type=button]{
+    width:50px;
+}
+
+#title{
+    width:40%;
+    text-align: center;
+}
+
+#opt{
+    margin:90px 10px 0
+}
+
+.box {
+    width:80%;
+    margin:0 auto;
+    background-color: #999999
+}
+
+.box div {
+    float: left;
+}
