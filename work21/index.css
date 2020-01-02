@@ -1,0 +1,73 @@
+.titile{
+    text-align: center;
+}
+
+.banner{
+    position: relative;
+    overflow: hidden;
+margin: 10px auto;
+width: 958px;
+height: 400px;
+}
+
+.banner ul{
+    margin:0;
+    padding: 0;
+    list-style: none;
+}
+
+.hot{
+    position: absolute; ;
+    top:0;
+    left: 0;
+}
+
+.hot li{
+    float: left;
+}
+
+.dot{
+    position: absolute;
+    bottom: 10px;
+    width:100%;
+    text-align: center;
+    font-size: 0;
+}
+
+.dot li{
+    display: block;
+    display: inline-block;
+    margin:0 5px;
+    width:15px;
+    border-radius:100%;
+    background: rgaba(145,144,144,5);
+    cursor: pointer;
+}
+
+.dot .on{
+    background-color: #fff;
+}
+
+.arrow{
+    display:none;
+
+}
+
+.arrow span{
+    display: block;
+    width:50px;
+    height: 100px;
+    background:rgba(0,0,0, .6);
+    color:#fff;
+    text-align: center;
+    font-size: 40px;
+    line-height: 100px;
+    cursor: pointer;
+}
+
+.arrow .prev{
+    position: absolute;
+    top:50%;
+    left:0;
+    margin-top: -50px;
+}
