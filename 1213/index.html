@@ -1,0 +1,15 @@
+<html>
+
+
+<script>
+    function show(){
+        var show = document.getElementById("showContent");//显示文本的对象
+        var content = document.getElementById("content");//输入文字的对象
+         
+        show.innerHTML += content.value;//把两个相连接
+    }
+    </script>
+    <h1 id="showContent">Hello World!</h1>
+    <input id="content" name="content"/>
+    <button onClick="show()">把内容加载在页面上</button>
+    </html>
