@@ -27,3 +27,4 @@ document.getElementById('upload').onclick = function(){
             xhr.open('POST','http://localhost:8080/upload');
             xhr.send(fd);
         };
+console.log(54,"编程猫");

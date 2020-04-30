@@ -4,3 +4,4 @@ $("input:last").click(function () {
         $('#result').empty().append($("<div></div>").html(result))
       })
   })
+  console("123")

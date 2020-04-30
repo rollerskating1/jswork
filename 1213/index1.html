@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="UTF-8">
+ <title>开关灯</title>
+ <style type="text/css">
+  html, body {
+   margin: 0px;
+   padding: 0px;
+   width: 100%;
+   height: 100%;
+   cursor: pointer;
+   background-color: white;
+  }
+ </style>
+</head>
+<body>
+    <h1 id="class1">你好</h1>
+<script type="text/javascript">
+ var oBody = document.getElementById("class1");
+ oBody.onclick = function () {
+  var bg = this.style.color;
+  switch (bg) {
+   case "white":
+    this.style.color = "red";
+    break;
+   case "red":
+    this.style.color = "black";
+    break;
+   default:
+    this.style.color = "white";
+  }
+ 
+ }
+</script>
+</body>
+</html>
