@@ -1,0 +1,9 @@
+8
+0 Amy
+1 Tom
+1 Bill
+0 Cindy
+0 Maya
+1 John
+1 Jack
+1 dfjsk
