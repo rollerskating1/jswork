@@ -1,0 +1,8 @@
+7
+Bob 35
+Amy 28
+James 98
+Alice 11
+Jack 45
+Smith 33
+Chris 62
